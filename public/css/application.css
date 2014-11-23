@@ -1,0 +1,28 @@
+.racer_table td {
+  background-color: white;
+  height: 20px;
+  width: 20px;
+  border: 1px solid black;
+}
+
+.racer_table td.active {
+  background-color: black;
+}
+
+h1, td {text-align: center;}
+
+a {text-decoration: none;}
+a:visited{color: black;}
+
+
+.container {
+  margin: 20px auto;
+  width: 65%;
+  padding: 0px 20px 20px 20px;
+  border: 1px dotted black;
+}
+
+table {width: 100%;}
+
+.winner {display: none;}
+#winna {display: none;}

@@ -1,0 +1,18 @@
+<h1>The Results are In!</h1>
+<table>
+	<tr>
+		<th>Winner</th>
+		<th>Time</th>
+		<th>Loser</th>
+	</tr>
+	<tr>
+		<td><%=@winner%></td>
+		<td><%=@race_time.to_f/1000%> seconds</td>
+		<td><%=@loser%></td>
+	</tr>
+	<tr>
+	</tr>
+</table>
+<br>
+		<td><button><a href = "/">New Players</a></button></td>
+		<td><button><a href = "/race">Rematch</a></button></td>
