@@ -25,3 +25,4 @@ The flow goes like this:
 5. run 'be rake db:seed' in the terminal from the root directory
 6. run 'be shotgun' in the terminal from the root directory
 7. open 'http://localhost:9393/' in your browser
+8. Player 1 press 'A' to progress. Player 2 press 'L' to progress.
